@@ -5,6 +5,9 @@ body {
 .container {
   padding: 10px;
   /* background: linear-gradient(#7e5dd9, #fff); */
+  max-width: 550px;
+  margin-top: 20px;
+  border-radius: 8px;
 }
 
 h1 {
