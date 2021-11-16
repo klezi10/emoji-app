@@ -13,11 +13,9 @@ pushBtn.addEventListener('click', function (event) {
   const emojiInput = document.getElementById('emoji-input');
   console.log(emojiInput.value);
 
-  // if (emojiInput.value) {
-  myEmojis.push(emojiInput.value);
-  emojiContainer.append(emojiInput.value);
-  emojiInput.value = null;
-  // } else {
-  //   return null;
-  // }
+  if (emojiInput.value) {
+    myEmojis.push(emojiInput.value);
+    emojiContainer.append(emojiInput.value);
+    emojiInput.value = null;
+  }
 });
