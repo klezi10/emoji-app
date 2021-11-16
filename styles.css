@@ -37,7 +37,7 @@ input {
 }
 
 .buttons-wrapper {
-  margin: 10px 0 40px;
+  margin: 10px 0;
   justify-content: center;
   display: flex;
 }
@@ -45,9 +45,15 @@ input {
 button {
   margin: 0 5px;
   background: white;
-  color: #7e5dd9;
+  color: #1d46ca;
   font-weight: bold;
   border: 1px solid white;
   border-radius: 4px;
   padding: 4px 10px;
+}
+
+#pop-btn,
+#shift-btn {
+  background: rgb(230, 90, 90);
+  color: white;
 }
