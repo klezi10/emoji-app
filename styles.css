@@ -1,6 +1,10 @@
+body {
+  background: #7e5dd9;
+}
+
 .container {
   padding: 10px;
-  background: linear-gradient(#7e5dd9, #fff);
+  /* background: linear-gradient(#7e5dd9, #fff); */
 }
 
 h1 {
@@ -12,6 +16,11 @@ h1 {
 #emoji-container {
   margin: 40px;
   text-align: center;
+}
+
+#emoji-container span {
+  margin: 10px;
+  font-size: 60px;
 }
 
 input {
@@ -33,9 +42,10 @@ input {
 button {
   display: block;
   margin: 20px auto;
-  background: #7e5dd9;
-  color: white;
-  border: 1px solid #7e5dd9;
+  background: white;
+  color: #7e5dd9;
+  font-weight: bold;
+  border: 1px solid white;
   border-radius: 4px;
   padding: 4px 10px;
 }
