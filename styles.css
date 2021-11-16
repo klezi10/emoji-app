@@ -57,3 +57,17 @@ button {
   background: rgb(230, 90, 90);
   color: white;
 }
+
+footer {
+  color: #c0b5b5;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
