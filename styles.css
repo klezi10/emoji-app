@@ -36,15 +36,14 @@ input {
   text-align: center;
 }
 
-/* .buttons-wrapper {
+.buttons-wrapper {
   margin: 10px 0 40px;
   justify-content: center;
   display: flex;
-} */
+}
 
 button {
-  display: block;
-  margin: 20px auto;
+  margin: 0 5px;
   background: white;
   color: #7e5dd9;
   font-weight: bold;
