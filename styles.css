@@ -1,4 +1,41 @@
-body {
+.container {
   padding: 10px;
-  /* background: linear-gradient(#5da4d9, #fff); */
+  background: linear-gradient(#7e5dd9, #fff);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#emoji-container {
+  margin: 40px;
+  text-align: center;
+}
+
+input {
+  margin: 0 auto;
+  display: block;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 4px 10px;
+  background: white;
+  text-align: center;
+}
+
+/* .buttons-wrapper {
+  margin: 10px 0 40px;
+  justify-content: center;
+  display: flex;
+} */
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: #7e5dd9;
+  color: white;
+  border: 1px solid #7e5dd9;
+  border-radius: 4px;
+  padding: 4px 10px;
 }
